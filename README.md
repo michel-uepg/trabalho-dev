@@ -15,7 +15,6 @@ Este projeto é uma API desenvolvida em Java, usando o framework Spring, para ge
 
 ## Estrutura do Banco de Dados
 ### Tabelas Criadas
-**Tabela `jogador`**:
 ```sql
 CREATE TABLE jogador (
     cod_jogador SERIAL PRIMARY KEY,
@@ -23,6 +22,7 @@ CREATE TABLE jogador (
     email VARCHAR(255) NOT NULL,
     data_nasc DATE NOT NULL
 );
+
 CREATE TABLE pagamento (
     cod_pagamento SERIAL PRIMARY KEY,
     ano SMALLINT NOT NULL,
