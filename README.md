@@ -13,6 +13,19 @@ Este projeto é uma API desenvolvida em Java, usando o framework Spring, para ge
 - Spring Boot 3.3.3
 - PostgreSQL
 
+## Endpoints da API
+Jogador
+GET /api/jogadores - Listar todos os jogadores.
+POST /api/jogadores - Criar um novo jogador.
+GET /api/jogadores/{id} - Buscar um jogador pelo ID.
+PUT /api/jogadores/{id} - Atualizar um jogador pelo ID.
+DELETE /api/jogadores/{id} - Deletar um jogador pelo ID.
+Pagamento
+GET /api/pagamentos - Listar todos os pagamentos.
+POST /api/pagamentos - Criar um novo pagamento.
+GET /api/pagamentos/{id} - Buscar um pagamento pelo ID.
+DELETE /api/pagamentos/{id} - Deletar um pagamento pelo ID.
+
 ## Estrutura do Banco de Dados
 ### Tabelas Criadas
 ```sql
